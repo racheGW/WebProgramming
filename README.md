@@ -1,2 +1,2 @@
 # WebProgramming
-Repository for Web Programming Seminar in SS 26
+Repository for Web Programming Seminar in the summer semester 2026
