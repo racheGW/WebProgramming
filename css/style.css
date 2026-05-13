@@ -1,1 +1,115 @@
+body {
+    font-family: 'Arial Narrow', sans-serif;
+    background-color: #fdfaff; /*light pastel background */
+    color: #333;
+}
+
+
+header {
+    background: linear-gradient(
+        to right,
+        #d8eefe,  /* pastel blue */
+        #f7d6e0,  /* pastel pink */
+        #d9f7e3   /* pastel green */
+    );
+    text-align: center;
+    padding: 3rem 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    color: #4a5b7c; /* light navy */
+    letter-spacing: 2px;
+    text-shadow:
+        1px 1px 0 #ffffff,
+        2px 2px 0 #d8eefe,
+        3px 3px 6px rgba(0,0,0,0.2);
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #5c6b8a;
+    margin-top: 0.5rem;
+}
+
+
+main {
+    max-width: 700px;
+    margin: auto;
+    padding: 2rem;
+}
+
+
+.card {
+    background-color: white;
+    margin-bottom: 2rem;   
+    padding: 1.5rem;       
+    border-radius: 10px;
+    border: 2px solid #a7c7e7; /* border in pastel blue */
+    text-align: center;
+    box-shadow: 
+        0 10px 25px rgba(0,0,0,0.12),
+        0 5px 10px rgba(0,0,0,0.06);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow:
+        0 14px 30px rgba(0,0,0,0.18);
+}
+
+
+
+.introduction {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid #f7d6e0; /* pastel pink */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+.assignments h2 {
+    margin-top: 2rem;
+    color: #4a5b7c;
+}
+
+
+.assignments-button {
+    display: block;
+    margin-top: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #d9f7e3; /* pastel green */
+    color: #4a5b7c;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    border: 2px solid #a7c7e7; /* outline in pastel blue */
+    transition: 0.25s ease;
+}
+
+.assignments-button:hover {
+    background-color: #f7d6e0; /* pastel pink */
+    transform: translateY(-2px);
+}
+
+
+h2 {
+    color: #4a5b7c;
+    text-align: center;
+    font-size: 2rem;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    color: #a7c7e7;
+}
 
