@@ -1,6 +1,7 @@
 body {
-    font-family: 'Arial Narrow', sans-serif;
-    background-color: #fdfaff; /*light pastel background */
+    font-family: 'Quicksand', sans-serif;
+    background-color: #fdfaff;
+    margin: 0;
     color: #333;
 }
 
@@ -42,33 +43,31 @@ main {
 }
 
 
-.card {
+.card,
+.introduction {
+    max-width: 550px; 
+    margin: 2rem auto;
+    padding: 1.2rem;
     background-color: white;
-    margin-bottom: 2rem;   
-    padding: 1.5rem;       
     border-radius: 10px;
-    border: 2px solid #a7c7e7; /* border in pastel blue */
-    text-align: center;
     box-shadow: 
         0 10px 25px rgba(0,0,0,0.12),
         0 5px 10px rgba(0,0,0,0.06);
     transition: 0.3s ease;
 }
 
+.card {
+    border: 2px solid #a7c7e7; /* pastel blue */
+}
+
+.introduction {
+    border: 2px solid #f7d6e0; /* pastel pink */
+}
+
 .card:hover {
     transform: translateY(-5px);
     box-shadow:
         0 14px 30px rgba(0,0,0,0.18);
-}
-
-
-
-.introduction {
-    background-color: white;
-    padding: 1.5rem;
-    border-radius: 10px;
-    border: 2px solid #f7d6e0; /* pastel pink */
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 
