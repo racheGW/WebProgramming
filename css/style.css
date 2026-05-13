@@ -1,6 +1,6 @@
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #c9b7f5; /* pastel purple */
+    background-color: #c9b7f5;
     margin: 0;
     color: #fdfaff;
 }
@@ -10,7 +10,7 @@ body {
     margin: 2rem auto;
     padding: 2rem;
     background-color: rgba(255, 255, 255, 0.85);
-    border: 3px solid #b7d8f5; /* pastel blue */
+    border: 3px solid #b7d8f5;
     border-radius: 15px;
     box-shadow:
         0 10px 25px rgba(0,0,0,0.12),
@@ -20,9 +20,9 @@ body {
 header {
     background: linear-gradient(
         to right,
-        #b7d8f5,  /* pastel blue */
-        #f7c6d9,  /* pastel pink */
-        #c9b7f5   /* pastel purple */
+        #b7d8f5,  
+        #f7c6d9,  
+        #c9b7f5   
     );
     text-align: center;
     padding: 3rem 1rem;
@@ -32,7 +32,7 @@ header {
 h1 {
     margin: 0;
     font-size: 3.5rem;
-    color: #4a4a6a; /* deep purple */
+    color: #4a4a6a;
     letter-spacing: 2px;
     text-shadow:
         1px 1px 0 #ffffff,
@@ -57,8 +57,8 @@ main {
     max-width: 550px; 
     margin: 2rem auto;
     padding: 1.2rem;
-    background-color: #ffffff;   /* solid white box */
-    color: #4a4a6a;              /* dark readable text */
+    background-color: #ffffff;   
+    color: #4a4a6a;          
     border-radius: 10px;
     box-shadow: 
         0 10px 25px rgba(0,0,0,0.12),
@@ -67,11 +67,11 @@ main {
 }
 
 .card {
-    border: 2px solid #b7d8f5; /* pastel blue */
+    border: 2px solid #b7d8f5; 
 }
 
 .introduction {
-    border: 2px solid #f7c6d9; /* pastel pink */
+    border: 2px solid #f7c6d9;
 }
 
 .card:hover {
@@ -90,18 +90,18 @@ main {
     margin-top: 1rem;
     padding: 1rem;
     margin-bottom: 1rem;
-    background-color: #b7d8f5; /* pastel blue */
+    background-color: #b7d8f5;
     color: #4a4a6a;
     border-radius: 10px;
     text-decoration: none;
     text-align: center;
     font-size: 1.1rem;
-    border: 2px solid #c9b7f5; /* pastel purple outline */
+    border: 2px solid #c9b7f5;
     transition: 0.25s ease;
 }
 
 .assignments-button:hover {
-    background-color: #f7c6d9; /* pastel pink */
+    background-color: #f7c6d9; 
     transform: translateY(-2px);
 }
 
