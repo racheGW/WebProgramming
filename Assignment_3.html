@@ -4,23 +4,27 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Paperback Hoes Podcast</title>
-<link rel="stylesheet" href="css/style_assignment_3.css">
+<link rel="stylesheet" href="css/style_assignment3.css">
 
 </head>
 <body>
 
 <header>
     <div class="logo">
-    <img src="images/cover.jpg" alt="Paperback Hoes Logo">
+    <img src="images/cover.png" alt="Paperback Hoes Logo">
     <span>Paperback Hoes</span>
 </div>
 
+<button id="themeBtn">
+    🌙 Reading Mode
+</button>
+
     <nav>
         <ul>
-            <li><a href="#">Home</a></li> // placeholder for now 
-            <li><a href="#">Episodes</a></li>
-            <li><a href="#">Books</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="https://frieda566.github.io/web_programming/assignment3.html">Home</a></li> 
+            <li><a href="https://frieda566.github.io/web_programming/Episodes.html">Episodes</a></li>
+            <li><a href="https://frieda566.github.io/web_programming/Books.html">Books</a></li>
+            <li><a href="https://frieda566.github.io/web_programming/Contact.html">Contact</a></li>
         </ul>
     </nav>
 </header>
@@ -28,7 +32,7 @@
 <section class="about">
 
     <div class="about-text">
-        <h2>About Paperback Hoes</h2>
+        <h1>About Paperback Hoes</h1>
 
         <p>
             Paperback Hoes started during the pandemic when Rachel and Laureen
@@ -48,16 +52,92 @@
 
 </section>
 
+<section class="banner">
+    <img src="images/banner.png" alt="banner">
+
+</section>
+
+<section class="hosts">
+
+    <h2>Meet the Hosts 💕</h2>
+
+    <div class="hosts-container">
+
+        <div class="host-card">
+
+            <img src="images/rachel.jpeg" alt="Rachel">
+
+            <h3>Rachel</h3>
+
+            <button class="host-btn">Show Favorites</button>
+
+            <div class="host-info">
+
+                <p><strong>Favourite Series:</strong></p>
+                <p>Throne of Glass</p>
+
+                <p><strong>Favourite Standalone:</strong></p>
+                <p>We Could Be Rats</p>
+
+                <p><strong>Favourite Genre:</strong></p>
+                <p>Fiction, Romance</p>
+
+                <p><strong>Favourite Authors:</strong></p>
+                <p>Emily R. Austin, Ali Hazelwood</p>
+
+        </div>
+
+            <a href="https://www.goodreads.com/user/show/84406194-rachel" target="_blank">
+                Goodreads Profile
+            </a>
+
+        </div>
+
+        <div class="host-card">
+
+            <img src="images/laureen.jpeg" alt="Laureen">
+
+            <h3>Laureen</h3>
+
+            <button class="host-btn">Show Favorites</button>
+
+            <div class="host-info">
+
+                <p><strong>Favourite Series:</strong></p>
+                <p>Sumpfloch Saga</p>
+
+                <p><strong>Favourite Standalone:</strong></p>
+                <p>Pride and Prejudice</p>
+
+                <p><strong>Favourite Genre:</strong></p>
+                <p>Fantasy</p>
+
+                <p><strong>Favourite Author:</strong></p>
+                <p>Ali Hazelwood</p>
+
+        </div>
+
+            <a href="https://www.goodreads.com/user/show/127442855-laureen-fay" target="_blank">
+                Goodreads Profile
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
 <section class="hero">
 
     <div class="sticker">🎙 New Episode</div>
 
-    <h1>Our very own review on a bestseller! Purple Clouds: Bittersweet Edition 🇰🇷☁️</h1>
+    <h2>Today we're getting Seoul-ful! 🇰🇷✨</h2>
 
     <p>
-        Join us as we chat with author Mounia Jayawanth about
-        her newest instalment in the Purple Clouds Series <strong>Purple Clouds: Bittersweet Edition☁️</strong>.
-        New York, journalism, love and heartbreak,
+        Join us as we chat with author Patricia Bouslair about
+        her debut novel <strong>The Seoul Season</strong>.
+        K-Dramas, art, love and even a little Hugh Grant,
         this episode has it all.
     </p>
 
@@ -67,7 +147,7 @@
 
     <div class="book-cover">
         <div class="placeholder">
-            <img src="images/purple_clouds.jpg" alt="Purple Clouds: Bittersweet Edition Book Cover">
+            <img src="images/seoul.jpg" alt="The Seoul Season cover">
         </div>
     </div>
 
@@ -77,11 +157,11 @@
             Featured Book Recommendation
         </div>
 
-        <h2>Purple Clouds: Bittersweet Edition☁️</h2>
+        <h2>The Seoul Season 🌸</h2>
 
         <p>
-            A sudden shimmering is in the air, the tension is heavy and rumbling like clouds before a storm. 
-            A dream job at the cult magazine Purple Clouds- for Linh Nguyen the chance for a new beginning in New York. If only it weren't for Xander Aberdeen: talented, outrageously attractive and the man whose work as illustrator she has criticised for months.
+            The novel follows Maya, a location scout working in Seoul, who discovers both artistic inspiration and unexpected love when she meets rising artist Jae-ho. 
+            As their connection deepens, a single lie threatens to unravel everything, forcing Maya to choose between the career she's worked for and the future she dreams of.
         </p>
 
     </div>
@@ -97,28 +177,48 @@
 
         <div class="card">
             <div class="episode-number">#140</div>
-            <h3>If You Like This Movie, Read This Book</h3>
-            <p>
-                Our favorite book recommendations inspired by beloved films.
-            </p>
+            <div class="card-content">
+                <h3>If You Like This Movie, Read This Book</h3>
+                <p>Our favorite book recommendations inspired by beloved films.</p>
+            </div>
+
+            <iframe
+                src="https://open.spotify.com/embed/episode/0cV64gm0XC1V9WqXRkPX0o?theme=0"
+                width="100%"
+                height="152"
+                frameborder="0"
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+            </iframe>
         </div>
 
         <div class="card">
             <div class="episode-number">#141</div>
-            <h3>Romantasy</h3>
-            <p>
-                Dragons, magic, romance, and everything we love about the
-                romantasy genre.
-            </p>
+            <div class="card-content">
+                <h3>Romantasy</h3>
+                <p>Dragons, magic, romance, and everything we love about the romantasy genre.</p>
+            </div>
+
+            <iframe
+                src="https://open.spotify.com/embed/episode/1Q7d9I4uUA1XZAJbyN22fx?theme=0"
+                width="100%"
+                height="152"
+                frameborder="0">
+            </iframe>
         </div>
 
         <div class="card">
             <div class="episode-number">#142</div>
-            <h3>XXL Reading Month</h3>
-            <p>
-                A recap of our July, August, and September reads, favorites,
-                surprises, and disappointments.
-            </p>
+            <div class="card-content">
+                <h3>XXL Reading Month</h3>
+                <p>A recap of our July, August, and September reads.</p>
+            </div>
+
+            <iframe
+                src="https://open.spotify.com/embed/episode/1L2dXxGiDwqfy2SEeNhaOF?theme=0"
+                width="100%"
+                height="152"
+                frameborder="0">
+            </iframe>
         </div>
 
     </div>
@@ -128,6 +228,8 @@
 <footer>
     <p>© 2026 Paperback Hoes Podcast</p>
 </footer>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
